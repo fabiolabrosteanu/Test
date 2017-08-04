@@ -4,6 +4,6 @@
     {
         Rock,
         Paper,
-        Scissors,
+        Scissors,a,b,c
     }
 }
