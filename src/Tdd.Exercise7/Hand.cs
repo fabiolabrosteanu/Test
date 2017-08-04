@@ -5,5 +5,6 @@
         Rock,
         Paper,
         Scissors,
+        Fire
     }
 }
