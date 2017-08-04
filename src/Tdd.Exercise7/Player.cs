@@ -4,6 +4,7 @@
     {
         public Hand RevealHand()
         {
+            //master modif
             throw new System.NotImplementedException();
         }
     }
