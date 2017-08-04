@@ -14,7 +14,7 @@ namespace Tdd.Exercise7.Tests
 
         [SetUp]
         public void SetUp()
-        {
+        {//
             _round = new Round();
             _player1 = Substitute.For<IPlayer>();
             _player2 = Substitute.For<IPlayer>();
