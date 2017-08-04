@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Tdd.Exercise7
+namespace Tdd.Exercise7.Ex7
 {
     public class Game
     {

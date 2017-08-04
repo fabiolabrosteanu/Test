@@ -1,6 +1,7 @@
 ﻿using NSubstitute;
 using NUnit.Framework;
 using Shouldly;
+using Tdd.Exercise7.Ex7;
 
 namespace Tdd.Exercise7.Tests
 {
@@ -39,7 +40,7 @@ namespace Tdd.Exercise7.Tests
             _player2.RevealHand().Returns(Hand.Scissors, Hand.Rock, Hand.Rock);
 
             GameResult result = _game.Play(_player1, _player2);
-            result.RoundCount.ShouldBe(4);
+            result.RoundCount.ShouldBe(3);
             result.WinningPlayer.ShouldBe(_player1);
         }
 
