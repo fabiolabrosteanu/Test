@@ -32,7 +32,8 @@ namespace Tdd.Exercise7
                 else if (winner == Winner.Player2)
                     wins[player2]++;
             }
-
+            //
+            //
             IPlayer winningPlayer = wins.OrderByDescending(pair => pair.Value).First().Key;
 
             return new GameResult(roundCount, winningPlayer);
