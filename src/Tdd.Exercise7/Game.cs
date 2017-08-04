@@ -22,7 +22,7 @@ namespace Tdd.Exercise7
 
             int roundCount = 0;
 
-            while (roundCount < 4|| wins.Values.Distinct().Count() == 1)
+            while (roundCount < 5|| wins.Values.Distinct().Count() == 1)
             {
                 roundCount++;
 
